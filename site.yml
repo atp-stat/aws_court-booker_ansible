@@ -1,0 +1,12 @@
+---
+- name: Exec common role
+  hosts: court-booker
+  sudo: yes
+  roles:
+    # - initialize
+    - common
+    - git
+    - ruby
+    - selenium-chrome
+    - postgres
+    - nginx

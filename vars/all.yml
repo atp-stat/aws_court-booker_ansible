@@ -1,0 +1,7 @@
+project_name: court-booker
+appuser: "{{ project_name }}"
+appgroup: "{{ project_name }}"
+appuser_password: "{{ project_name }}"
+appuser_root: /home/{{ project_name }}
+project_root: /home/{{ project_name }}/{{ project_name }}
+app_root: /home/{{ project_name }}/{{ project_name }}/app

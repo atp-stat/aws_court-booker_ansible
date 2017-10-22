@@ -1,0 +1,4 @@
+secrets.yml
+roles/test/*
+site.retry
+*example
